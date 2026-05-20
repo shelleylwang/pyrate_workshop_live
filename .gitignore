@@ -31,7 +31,6 @@ env/
 *.nex
 *.tre
 *.trees
-*.log
 *.p
 *.run1.p
 *.run2.p
@@ -50,12 +49,6 @@ env/
 *.bz2
 *.7z
 
-# PyRate output directories
-*_PyRate_mcmc/
-*_mcmc_files/
-*pyrate_out*/
-*_RTT/
-*_BDS_res/
 
 # Editor / IDE
 .vscode/
@@ -66,8 +59,5 @@ env/
 
 # Jupyter
 .ipynb_checkpoints/
-*.ipynb
 
-# Logs
-*.log
-logs/
+
