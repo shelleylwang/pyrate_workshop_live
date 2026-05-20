@@ -1,0 +1,73 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+.venv
+venv/
+env/
+*.pyc
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Large data / output files (too large for GitHub)
+*.nex
+*.tre
+*.trees
+*.log
+*.p
+*.run1.p
+*.run2.p
+*.mcmc
+*.chain
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npz
+*.npy
+*.zip
+*.tar
+*.tar.gz
+*.gz
+*.bz2
+*.7z
+
+# PyRate output directories
+*_PyRate_mcmc/
+*_mcmc_files/
+*pyrate_out*/
+*_RTT/
+*_BDS_res/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+logs/
